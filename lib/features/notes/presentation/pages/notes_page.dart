@@ -100,6 +100,34 @@ class _NotesPageState extends State<NotesPage> {
                       'Error: ${state.message}',
                       style: const TextStyle(fontSize: 16),
                       textAlign: TextAlign.center,
+            ),
+          ],
+        ),
+      );
+    }
+
+    return ListView.builder(
+      padding: const EdgeInsets.all(16),
+      itemCount: notes.length,
+      itemBuilder: (context, index) {
+        final note = notes[index];
+        return NoteCard(
+          note: note,
+          onEdit: (text) {
+            context.read<NotesBloc>().add(
+                  NotesUpdate(id: note.id, text: text),
+                );
+          },
+          onDelete: () {
+            context.read<NotesBloc>().add(
+                  NotesDelete(id: note.id),
+                );
+          },
+        );
+      },
+    );
+  }
+}
                     ),
                     const SizedBox(height: 16),
                     ElevatedButton(
