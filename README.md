@@ -270,14 +270,13 @@ The following sensitive files are properly excluded:
 
 ## 🎥 Demo Video
 
-[📹 Watch Full Demo Video](link-to-your-demo-video)
+[ Watch Full Demo Video](https://youtu.be/-8P1tGwSrZM)
 
 **Demo includes:**
 - User registration and login
 - Empty state display
 - Adding notes (with Firestore sync)
 - Reading and displaying notes
-- Editing notes (with real-time updates)
 - Deleting notes (with confirmation)
 - Firebase console verification
 
