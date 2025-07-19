@@ -325,20 +325,17 @@ dev_dependencies:
   flutter_lints: ^3.0.1
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create a feature branch (`git checkout -b feature`)
+3. Commit your changes (`git commit -m 'your message'`)
+4. Push to the branch (`git push origin`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Christelle USANASE**
-- GitHub: [@Usanas7](https://github.com/Usanas7)
-- Email: [your-email@example.com]
+- GitHub: [@Usanas7]
+- Email: [usanasechristelle7@gmail.com]
