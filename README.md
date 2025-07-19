@@ -3,7 +3,7 @@
 ## Overview
 A Flutter notes application with Firebase authentication and Firestore database integration, implementing clean architecture with proper state management.
 
-## 🏗️ Architecture Diagram
+## Architecture Diagram
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -37,7 +37,7 @@ A Flutter notes application with Firebase authentication and Firestore database 
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 lib/
